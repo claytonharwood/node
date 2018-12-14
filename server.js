@@ -1,15 +1,5 @@
-var path = require('path');
-var express = require('express');
-var app = express();
+const app = express()
 
-app.use(express.static("public"));
+app.use(express.static('public'))
 
-app.set("views", "views");
-app.set("view engine", "ejs");
-
-app.use(express.json() );      
-app.use(express.urlencoded({ extended: true }));
-
-app.listen(5000, function() {
-	console.log("The server is up and listening on port 5000");
-});
+app.listen(process.env.PORT || 8080, () => console.log(Up and Running!))
