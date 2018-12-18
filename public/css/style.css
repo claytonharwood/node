@@ -17,14 +17,17 @@ body, html {
     background-repeat: no-repeat; 
 }
 
-.logo {
-	background-image: url(../images/logo.gif); 
-	width: 680px;
-	height: 66px;
-	float: left;
-	margin-top: 15px;
-	margin-left: 50px;
- }
+ table {
+	border-collapse: collapse;
+}
+
+td {
+	background-color: white;
+	border: 3px solid black;
+	font-size: 80px;
+	color: #000;
+	border-radius: 10px 10px 10px 10px;
+}
 
  .center{
  	text-align: center;
@@ -61,6 +64,14 @@ body, html {
 .text-right{
 	width: 45%;
 	float: right;
+}
+
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
 }
 
 p {

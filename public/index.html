@@ -7,9 +7,18 @@
 <body>
 	<div class="bg"></div>
 	<div id="page">	
-	<h1>Tic-Tac-Toe</h1>
-	<h2>Leaderboard <%=  %></h2>
-	<script type="text/javascript" src="/tictactoe.js"></script>
+	<div class="right"><h2>Leaderboard</h2>
+		<p>
+			<script>displayLeaderboard();</script>
+		</p>
+
+	</div>
+	<h2>Lets Play!</h2>
+	<div id="tictactoe"></div>
+		<div class="left">
+			<span id='turn'>Player X</span>
+		</div>
+	<script type="text/javascript" src="tictactoe.js"></script>
 	</div>
 	<footer>
 			<div class="copyright">&copy 2018 www.tictactoe.com, all rights reserved</div>

@@ -86,7 +86,7 @@ function set() {
     alert('Winner: Player ' + turn);
     startNewGame();
   } else if (moves === N_SIZE * N_SIZE) {
-    alert('Draw');+ 'Enter Name:'
+    alert('Draw');
     startNewGame();
   } else {
     turn = turn === 'X' ? 'O' : 'X';
